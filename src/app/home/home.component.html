@@ -1,0 +1,60 @@
+<div class="container caps">
+  <div class="panel-group homepanel">
+    <div class="panel panel-primary wow slideInRight tablepanel" data-wow-duration="2s">
+      <div class="panel-heading">
+        <h3>CANCER PROTOCOLS</h3>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <table class="table table-bordered w3-table">
+            <tbody>
+              <tr>
+                <td *ngFor="let trtd of tr11" class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">{{trtd}}&nbsp;</a>
+              </tr>
+              <tr>
+                <td *ngFor="let trtd of tr12" class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">{{trtd}}&nbsp;</a>
+              </tr>
+              <tr>
+                <td class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">Hematologic&nbsp;</a></td>
+                <td class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">Ophthalmic&nbsp;</a></td>
+                <td class="dropdown">
+                  <a class="dropdown-toggle hvr-icon-wobble-horizontal hvr-wobble-horizontal" href="">Pediatric&nbsp;</a>
+                  <ul class="dropdown-content">
+                    <li *ngFor="let cap_name of cap_names; let i = index; "><a [routerLink]=" ['/caps', i+1] ">{{cap_name}}</a></li>
+                  </ul>
+                </td>
+                <td class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">Skin&nbsp;</a></td>
+              </tr>
+              <tr>
+                <td *ngFor="let trtd of tr14" class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">{{trtd}}&nbsp;</a>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-primary wow slideInLeft tablepanel"  data-wow-duration="2s">
+      <div class="panel-heading">
+        <h3>BIOMARKER TEMPLATES</h3>
+      </div>
+      <div class="panel-body">
+        <div class="row w3-responsive" style="overflow-x:auto;">
+          <table class="w3-table table table-bordered">
+            <tbody>
+              <tr>
+                <td *ngFor="let trtd of tr21" class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">{{trtd}}&nbsp;</a>
+              </tr>
+              <tr>
+                <td *ngFor="let trtd of tr22" class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">{{trtd}}&nbsp;</a>
+              </tr>
+              <tr>
+                <td *ngFor="let trtd of tr23" class="hvr-wobble-horizontal"><a class="hvr-icon-wobble-horizontal">{{trtd}}&nbsp;</a>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

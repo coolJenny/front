@@ -1,0 +1,185 @@
+/* You can add global styles to this file, and also import other style files */
+label{ font-weight: normal !important; }
+a{ text-decoration: none !important; }
+.navbar{
+    background: #EFEFEF;
+    box-shadow: 0 0 3px gray;
+}
+.navbar .container-fluid{
+    padding: 0 75px;
+    height: 75px;
+}
+.logo{
+    padding: 5px;
+    height: 100%;
+}
+.logo img{
+    margin-bottom: 9px;
+}
+.logo h2{
+    margin: 20px 0px;
+}
+.logo h2 img{ transition: all, ease-in-out .7s; }
+.logo h2 img:hover{
+    transform: rotate(720deg);
+}
+.logo a{
+    cursor: pointer;
+    text-decoration: none !important;
+    font-weight: 100 !important;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#myNavbar ul{
+    padding: 15px 0 0 0;
+    color:#666;
+    font-size: 17px;
+}
+#myNavbar ul a{ 
+    transition: ease-in-out all .5s;
+    -webkit-transition: ease-in-out all .5s;
+    -moz-transition: ease-in-out all .5s;
+}
+#myNavbar ul a:hover, .cancer .showbtn:hover{
+    color: black;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.homepanel{ padding: 10px; }
+.wow{ 
+    border: none !important;
+}
+.tablepanel{ padding: 20px 0 !important }
+.wow .panel-body{ padding: 0; }
+.wow .panel-body .row{ margin: 0; }
+.container .panel-group h3{
+    color: white;
+}
+.container .panel-group a:hover{
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown ul{
+    margin: 15px 0 0 -19px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 390px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+    list-style: none;
+    padding-left: 0px;
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transform: scale(1, 0);
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    transition: ease-in-out all .3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #DADADA;
+    text-decoration: none;
+    color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+.panel-body{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+table{
+    margin: 0px !important;
+}
+table tr td{
+    width: 25%;
+    cursor: pointer;
+    padding: 15px 20px !important;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+table tr td:hover{
+    background-color: #DADADA;
+}
+main{
+    margin-top: 80px;
+}
+
+.caps, .ewing, .usrs{
+    padding-top: 50px;
+}
+
+.ewing h3{
+    color: black;
+}
+.ewing p{
+    padding: 0px;
+    margin: 0px;
+}
+.cancer{ padding: 50px 0 50px 0 !important; }
+.cancer a{ color: black; }
+.cancer .panel-group .hvr-sweep-to-right{ 
+    width: 100%;
+    cursor: pointer;
+}
+.cancer .well{ background-color: #d9edf7; }
+.cancer .panel-group .title{ 
+    background-color: #337ab7; 
+    color: white;
+}
+.cancer .panel-group .hvr-sweep-to-right {
+    -webkit-transition-duration: 2s !important;
+    transition-duration: 2s !important;
+}
+.cancer .panel-group .hvr-sweep-to-right:hover{ color: white !important; }
+.cancer .panel-group a:hover{ color: white; }
+.cancer .panel-body{ padding: 10px 10px 10px 60px !important; }
+.cancer .panel-body .form-inline{ margin: 15px; }
+.cancer .panel-body .form-inline label{ margin: 0 15px; }
+.cancer .panel-footer{ background-color: #F5F5F5; }
+.cancer .footer{ float: right; }
+.cancer .showbtn{ 
+    background-color: #d9edf7;
+    line-height: 3.5;
+    height: 50px;
+    width: 90px;
+    margin: 5px;
+    float: left;
+    transition: ease-in-out all .5s;
+    -webkit-transition: ease-in-out all .5s;
+    -moz-transition: ease-in-out all .5s;
+}
+.showbtn:last-child{
+    margin-right: 0px;
+}
+.mfooter{
+    color: #777777;
+    padding: 20px 0 0 0;
+}
+.pulse{
+    visibility: visible; 
+    animation-duration: 2s; 
+    animation-delay: 300ms; 
+    animation-iteration-count: infinite; 
+    animation-name: pulse;
+}

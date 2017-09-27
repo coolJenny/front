@@ -1,0 +1,36 @@
+<div class="w3-container">
+  <div class="header navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header logo">
+        <h2>
+          <a [routerLink]=" [''] ">
+            <img src="/assets/images/logo.png" class="logo-img"> Autopsy App
+          </a>
+        </h2>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right wow pulse animated" data-wow-delay="600ms" data-wow-iteration="infinite" data-wow-duration="2s">
+          <li><a [routerLink]=" [''] " routerLinkActive="active" class="hvr-shadow-radial">Home</a></li>
+          <li><a [routerLink]=" ['/about'] " routerLinkActive="active" class="hvr-shadow-radial">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <main>
+   <router-outlet></router-outlet>
+ </main>
+
+ <div class="footer mfooter">
+  <div class="container text-center">
+    <div class="col-sm-12 footer">
+      <p>
+        <span class="glyphicons glyphicons-envelope"></span>sales@autopsyapp.com
+      </p>
+      <p>
+        &copy; Copyright Baylor College of Medicine, the year of inception through the current year, All rights reserved
+      </p>
+    </div>
+  </div>
+</div>
+</div>
